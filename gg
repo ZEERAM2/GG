@@ -1,0 +1,6 @@
+for i,v in pairs(game:GetService("Workspace")["__THINGS"].Pets:GetChildren()) do
+              v.Mesh.MeshId = "rbxassetid://2884752886"
+              v.Mesh.TextureId = "rbxassetid://6540771230"
+              v.Mesh.Scale = Vector3.new(6, 6, 6)
+              v.Mesh.Offset = Vector3.new(0, 7, 10)
+end
